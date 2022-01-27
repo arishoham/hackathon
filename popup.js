@@ -2,7 +2,15 @@
 
 document.getElementById("btn1").addEventListener("click", (e)=>{
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-    chrome.tabs.sendMessage(tabs[0].id, {greeting: 'add chicken'}, function(response) {
+    chrome.tabs.sendMessage(tabs[0].id, {msg: 'add'} , function(response) {
+      console.log(response.farewell);
+    });
+  });
+});
+
+document.getElementById("btn2").addEventListener("click", (e)=>{
+  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+    chrome.tabs.sendMessage(tabs[0].id, {msg: 'remove'}, function(response) {
       console.log(response.farewell);
     });
   });
@@ -15,6 +23,11 @@ document.getElementById("btn1").addEventListener("click",()=>{
     audioObj.play();
     chickenFlag = true;
   }
+})
+
+document.getElementById("btn2").addEventListener("click",()=>{
+  audioObj.pause();
+  chickenFlag = false;
 })
 
 // chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {

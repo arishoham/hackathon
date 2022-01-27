@@ -19,5 +19,8 @@
     "128": "icon.png"
     }
   },
-  "permissions": ["activeTab","storage","declarativeContent"]
+  "permissions": ["activeTab","storage","declarativeContent"],
+  "background": {
+    "service_worker": "background.js"
+  }
 }

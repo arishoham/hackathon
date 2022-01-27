@@ -1,33 +1,21 @@
 #btn1 {
-  color: blue;
-  border: 2px solid;
-  color: yellow;
-  height: 50px;
+
 }
 
 #btn2 {
-  color: blue;
-  border: 2px solid;
-  color: red;
-  height: 50px;
-  width: 100px;
+  margin: 10px;
+  margin-top: 0px;
 }
 
 body {
-    height: 150px;
-    width: 200px;
-    background-color: lightblue;
-    background-image: url('https://e7.pngegg.com/pngimages/211/925/png-clipart-green-grass-desktop-editing-pasture-miscellaneous-photography.png');
-    background-size: 150px;
-    align-items: flex-end;
-}
-
-.dropdown-content {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
+  margin: 0;
+  height: 170px;
+  width: 150px;
+  background-image: url('https://wallpaperaccess.com/full/2106427.jpg');
+  background-repeat: no-repeat;
+  background-size: 310px auto; 
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
