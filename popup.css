@@ -1,10 +1,12 @@
-#btn1 {
-
+#btn1:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 #btn2 {
   margin: 10px;
   margin-top: 0px;
+  cursor: pointer;
 }
 
 body {

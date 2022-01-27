@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "My Extension",
+  "name": "CHICKENS",
   "version": "1.0",
-  "description": "A plain text description",
+  "description": "Cluck cluck",
   "icons": {
     "128": "icon.png"
  },

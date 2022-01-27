@@ -17,11 +17,15 @@ document.getElementById("btn2").addEventListener("click", (e)=>{
 });
 
 let chickenFlag = false;
+let musicSpeed = 1
 document.getElementById("btn1").addEventListener("click",()=>{
   if(!chickenFlag) {
     audioObj = new Audio('music.mp3');
     audioObj.play();
     chickenFlag = true;
+  }
+  else{
+    audioObj.playbackRate = musicSpeed += .1
   }
 })
 
